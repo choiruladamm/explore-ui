@@ -1,7 +1,10 @@
 import React from 'react'
+import { PricingSection } from '@/components'
 
 export default function Home() {
   return (
-    <div className='grid place-items-center h-screen'>Home</div>
+    <div>
+      <PricingSection />
+    </div>
   )
 }
