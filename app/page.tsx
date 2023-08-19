@@ -1,10 +1,10 @@
 import React from 'react'
-import { PricingSection } from '@/components'
+import { HeroSection, PricingSection } from '@/components'
 
 export default function Home() {
   return (
     <div>
-      <PricingSection />
+      <HeroSection />
     </div>
   )
 }
