@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import Link from "next/link"; 
 import { Icons } from "./Icon";
 import { Button } from "./ui/button";
 import {
@@ -17,7 +17,7 @@ import { Label } from "./ui/label";
 
 export default function Register() {
   return (
-    <Card className="w-[300px]">
+    <Card className="max-w-xl">
       <CardHeader className="space-y-1">
         <CardTitle className="text-2xl">Create an account</CardTitle>
         <CardDescription>
