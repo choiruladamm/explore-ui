@@ -1,10 +1,10 @@
-import HeroMarketing from "@/components/HeroMarketing";
+import TwitterEmbed from "@/components/slicingui/TwitterEmbed";
 import React from "react";
 
 export default function Home() {
   return (
     <>
-      <HeroMarketing />
-      </>
+      <TwitterEmbed />
+    </>
   );
 }
