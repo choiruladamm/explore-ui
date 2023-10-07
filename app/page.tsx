@@ -1,12 +1,10 @@
-import HeroPinestOne from "@/components/HeroPinestOne";
-import TestLayout from "@/components/slicingui/TestLayout";
-import TwitterEmbed from "@/components/slicingui/TwitterEmbed";
+import HeroSass from "@/components/HeroSass";
 import React from "react";
 
 export default function Home() {
   return (
     <>
-      <HeroPinestOne />
+      <HeroSass />
     </>
   );
 }
